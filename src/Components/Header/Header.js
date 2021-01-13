@@ -2,6 +2,7 @@ import React from 'react';
 import MiddleHeader from './MiddleHeader';
 import TopHeader from './TopHeader';
 import HBackground from './HBackground2.png';
+import BottomHeader from './BottomHeader';
 
 
 const Header = () => {
@@ -11,6 +12,7 @@ const Header = () => {
 
             <TopHeader></TopHeader>
             <MiddleHeader></MiddleHeader>
+            <BottomHeader></BottomHeader>
         </div>
     );
 };
